@@ -44,11 +44,15 @@ Use them separately or chain them: probe ➜ decide ➜ encode ➜ probe again �
 
 ## 🗺️ 2025 Roadmap (H2)
 
-| Quarter | FFmpeg API | FFprobe API | Platform / DevOps | Community |
-|---------|------------|-------------|-------------------|-----------|
-| **Q3 2025** | v0.9 **Job‑Runner Stabilisation**  → resilient retries, pause/resume, priority queues<br>Preset Library (H.264, H.265, AV1, HLS ladders) | v0.7 **Streaming Manifest Linting** (HLS/DASH) & structural diff<br>Frame‑accurate timeline export | **Unified Auth Service** (JWT & API‑Key quotas)<br>Multi‑arch Docker images (x86_64 & arm64) | Weekly “Crash‑the‑Code” test sessions; RFC for Contributor Covenant |
-| **Q4 2025** | **v1.0 GA** – semver freeze, backwards‑compat CLI<br>GPU auto‑tuner for NVENC & AMF | **v1.0 GA** – schema freeze, “probe once, trust forever” checksums | Helm Chart + Operator for k8s<br>First cut of **Kimi‑2 Local LLM** integration | Plugin SDK αlpha with sample **AV1 Film‑Grain Filter**; Launch docs.rendiff.dev with tutorials |
-| **Continuous** | Bug‑bash Fridays, security patches within 48h | Auto‑publish SBOM & supply‑chain scan results | GitHub Actions → full SBOM, Docker SBOM<br>Digital Ocean & GitHub GPU grants programme | Monthly community showcase on rendiff.dev |
+> **Single Focus:** Build a polished **Web UI for the FFmpeg API**—no distractions, just pixels.
+
+| Month | Milestone | Highlights |
+|-------|-----------|------------|
+| **August 2025** | **Design & UX** | Wireframes, responsive layout, dark/light theme, Tailwind adoption |
+| **September 2025** | **Core Features** | Drag‑&‑drop uploads, URL fetcher, preset selector, real‑time SSE progress, advanced flag inspector, auth flow |
+| **October 2025** | **Quality & Preview** | Embedded HLS/DASH player, VMAF/PSNR/SSIM charts, frame comparison slider |
+| **November 2025** | **DevOps & Beta Launch** | Project at  [rendiff/ffmpeg-webgui](https://github.com/rendiffdev/ffmpeg-webgui) , public alpha on rendiff.dev |
+| **December 2025** | **GA Release** | v1.0 tag, docs & video tutorials, localisation skeleton
 
 > **Reality‑check:** Dates represent achievable stretch goals assuming current volunteer velocity; PRs & sponsors accelerate everything.
 
